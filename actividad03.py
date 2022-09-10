@@ -90,6 +90,6 @@ if __name__ == "__main__":
     th2.start()
 
     for x in range(0,50):
-        th1 = threading.Thread(target=service3, args=[x])
-        th1.start()
+        th3 = threading.Thread(target=service3, args=[x])
+        th3.start()
 
